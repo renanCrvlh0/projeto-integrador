@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+.fundo {
+    background-color: rgb(255, 255, 255);
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.container-principal {
+    background-color: #ffffff;
+    width: 90%;
+    margin: auto;
+    box-shadow: 5px 0 12px 0 rgba(0, 0, 0, 0.068), -5px 0 12px 0 rgba(0, 0, 0, 0.068);
+}
+
+.cabecalho {
+    background-color: rgb(11, 162, 221);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+    box-shadow:0 8px 0 0 rgb(238, 237, 237);
+}
+
+
+.logo {
+    height: 50px;
+    width: 120px;
+    margin-left: 50px;
+}
+
+#buscar {
+    padding: 5px;
+    height: 25px;
+    width: 450px;
+    border-radius: 15px;
+    border: none;
+}
+
+#mode {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 50px;
+}
+
+
+
+.funcionalidades {
+    background-color: rgb(238, 237, 237);
+    /* border-radius: 0 0 15px 15px; */
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.conteudo {
+    width: 80%;
+    margin: auto;
+}
+
+.container-funcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-funcoes:hover {
+    color: rgb(11, 162, 221);
+    cursor: pointer;
+}
+
+.funcionalidades .container-funcoes + .container-funcoes {
+    margin-left: 40px;
+}
+
+.funcoes {
+    border: 3px solid rgba(11, 162, 221, 0);
+}
+
+.funcoes:hover {
+    cursor: pointer;
+    border: 3px solid rgb(11, 162, 221);
+}
+
+.saude-todo-dia {
+    border-radius: 70px;
+}
+
+.medicamentos {
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+}
+
+.posto-de-saude {
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+}
+
+.bem-vindo {
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.37);
+    border-left: 1px solid rgba(128, 128, 128, 0.37);
+    border-right: 1px solid rgba(128, 128, 128, 0.37);
+}
+
+.texto-bemvindo {
+    font-size: 30px;
+}
+
+.enciclopedia {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.historico-remedios {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.37);
+}
+
+.container-historico {
+    padding: 2px 15px;
+    border-radius: 5px 5px 0 0;
+    background-color: #ffffff;
+    border-left: 1px solid rgba(128, 128, 128, 0.37);
+    border-right: 1px solid rgba(128, 128, 128, 0.37);
+}
+
+.historico-remedios .container-historico + .container-historico {
+    margin-left: 20px;
+}
+
+.dipirona {
+    border-top: 5px solid green;
+}
+.dorflex {
+    border-top: 5px solid purple;
+}
+.valerimed {
+    border-top: 5px solid red;
+}
+.viagra {
+    border-top: 5px solid blue;
+}
+
+
+.empresas {
+    margin-top: 10px;
+    background-color: rgb(238, 237, 237);
+}
+
+
+.rodape {
+    background-color: rgb(11, 162, 221);
+    width: 100%;
+    height: 70px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
