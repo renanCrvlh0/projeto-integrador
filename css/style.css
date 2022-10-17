@@ -7,22 +7,21 @@ body {
     background-color: rgb(230, 230, 230);
 }
 
-.fundo {
-    background-color: rgb(255, 255, 255);
-    grid-column: 2/3;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+
+.borda-título {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.37);
 }
+
 
 .container-principal {
     background-color: #ffffff;
-    width: 90%;
+    width: 100%;
     margin: auto;
     box-shadow: 5px 0 12px 0 rgba(0, 0, 0, 0.068), -5px 0 12px 0 rgba(0, 0, 0, 0.068);
 }
 
 .cabecalho {
-    background-color: rgb(11, 162, 221);
+    background-color: rgb(110, 196, 253);
     width: 100%;
     height: 70px;
     display: flex;
@@ -58,8 +57,8 @@ body {
 
 
 .funcionalidades {
+    border-radius: 0 0 10px 10px;
     background-color: rgb(238, 237, 237);
-    /* border-radius: 0 0 15px 15px; */
     padding: 20px 0;
     display: flex;
     align-items: center;
@@ -81,7 +80,7 @@ body {
 }
 
 .container-funcoes:hover {
-    color: rgb(11, 162, 221);
+    color: rgb(110, 196, 253);
     cursor: pointer;
 }
 
@@ -89,32 +88,31 @@ body {
     margin-left: 40px;
 }
 
-.funcoes {
+.borda-azul {
     border: 3px solid rgba(11, 162, 221, 0);
 }
 
-.funcoes:hover {
+.borda-azul:hover {
     cursor: pointer;
-    border: 3px solid rgb(11, 162, 221);
+    border: 3px solid rgb(110, 196, 253);
 }
 
-.saude-todo-dia {
+.arredondar {
     border-radius: 70px;
 }
 
 .medicamentos {
     width: 100px;
     height: 100px;
-    border-radius: 70px;
 }
 
 .posto-de-saude {
     width: 100px;
     height: 100px;
-    border-radius: 70px;
 }
 
 .bem-vindo {
+    border-radius: 0 0 10px 10px;
     margin-top: 20px;
     text-align: center;
     border-bottom: 1px solid rgba(128, 128, 128, 0.37);
@@ -133,7 +131,9 @@ body {
 
 .historico-remedios {
     margin-top: 25px;
+    margin-bottom: 100px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid rgba(128, 128, 128, 0.37);
@@ -145,6 +145,12 @@ body {
     background-color: #ffffff;
     border-left: 1px solid rgba(128, 128, 128, 0.37);
     border-right: 1px solid rgba(128, 128, 128, 0.37);
+}
+
+.container-historico:hover {
+    cursor: pointer;
+    background-color: #ebebeb;
+    transition: .5s;
 }
 
 .historico-remedios .container-historico + .container-historico {
@@ -166,17 +172,116 @@ body {
 
 
 .empresas {
-    margin-top: 10px;
-    background-color: rgb(238, 237, 237);
+    padding: 10px 0;
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.empresas img + img {
+    margin-left: 50px;
+}
+
+.container-imc {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-right: 1px solid rgba(128, 128, 128, 0.37);
+}
+
+.imc h2 {
+    margin-bottom: 20px;
+}
+
+.imc-sobre {
+    background-color: rgb(110, 196, 253);
+    border-radius: 10px;
+    margin: 0 10px 10px;
+    padding: 50px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.indice {
+    margin-bottom: 50px;
+}
+
+.entrada-dados {
+    width: 50%;
+    border: 1px solid rgb(110, 196, 253);
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.btn-calcular {
+    padding: 5px;
+    border-radius: 20px;
+    border: 3px solid rgb(110, 196, 253);
+    width: 30%;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-calcular:hover {
+    cursor: pointer;
+    background-color: rgb(110, 196, 253);
+    color: #ffffff;
+}
+
+.sobre {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cadastro {
+    border-radius: 10px 10px 0 0;
+    margin-top: 20px;
+    background-color: rgb(238, 237, 237);
+    padding: 50px;
+    /* display: flex;  */
+}
+
+.cadastro-titulo {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.cadastro-subtitulo {
+    margin-bottom: 20px;
+}
+
+#email {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: 30%;
+    border: 1px solid rgb(110, 196, 253);
+    border-radius: 10px;
+    padding: 8px;
+}
 
 .rodape {
-    background-color: rgb(11, 162, 221);
+    background-color: rgb(110, 196, 253);
     width: 100%;
     height: 70px;
     border-radius: 10px 10px 0 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 -8px 0 0 rgb(238, 237, 237);
 }
