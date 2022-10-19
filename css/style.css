@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(114, 114, 114);
+    overflow-x: none;
 }
 
 .dark-corpo {
@@ -15,7 +16,8 @@ body {
 
 
 .container-principal {
-    width: 100%;
+    overflow-x: none;
+    width: 90%;
     margin: auto;
     box-shadow: 5px 0 12px 0 rgba(0, 0, 0, 0.068), -5px 0 12px 0 rgba(0, 0, 0, 0.068);
 }
@@ -45,22 +47,20 @@ body {
 
 .light-cabecalho {
     border-bottom: 2px solid rgb(110, 196, 253);
-    border-left: 2px solid rgb(110, 196, 253);
-    border-right: 2px solid rgb(110, 196, 253);
-    /* box-shadow: 0 2px 0 0 rgb(110, 196, 253); */
+    /* border-left: 2px solid rgb(110, 196, 253);
+    border-right: 2px solid rgb(110, 196, 253); */
 }
 .dark-cabecalho {
     border-bottom: 2px solid purple;
-    border-left: 2px solid purple;
-    border-right: 2px solid purple;
-    /* box-shadow: 0 8px 0 0 purple; */
+    /* border-left: 2px solid purple;
+    border-right: 2px solid purple; */
 }
 
 
 .logo {
     height: 50px;
     width: 120px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 #buscar {
@@ -91,7 +91,7 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    margin-right: 50px;
+    margin-right: 30px;
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -262,6 +262,8 @@ body {
 .container-historico {
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 70px;
+    text-align: center;
     padding: 2px 15px;
     border-radius: 5px;
     
@@ -289,8 +291,9 @@ body {
 
 
 
-.historico-remedios .container-historico + .container-historico {
-    margin-left: 14px;
+.historico-remedios .container-historico + .container-historico, .container-historico:first-child {
+    margin-right: 14px;
+
 }
 
 .dipirona {
@@ -341,14 +344,17 @@ body {
 .empresas {
     padding: 50px 0;
     margin-top: 20px;
+}
+.teste-empresas {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.empresas img + img {
+.teste-empresas div + div {
     margin-left: 50px;
 }
+
 
 .container-imc {
     margin-top: 70px;
@@ -611,19 +617,223 @@ border: 2px solid purple;
     width: 100%;
     height: 70px;
     border-radius: 10px 10px 0 0;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    text-align: center;
+}
+
+.rodape p {
+    position: relative;
+    top: 40%;
 }
 
 .light-rodape {
     border-top: 2px solid rgb(110, 196, 253);
-    border-left: 2px solid rgb(110, 196, 253);
-    border-right: 2px solid rgb(110, 196, 253); 
+    /* border-left: 2px solid rgb(110, 196, 253);
+    border-right: 2px solid rgb(110, 196, 253);  */
 }
 .dark-rodape {
     border-top: 2px solid purple;
-    border-left: 2px solid purple;
-    border-right: 2px solid purple; 
+    /* border-left: 2px solid purple;
+    border-right: 2px solid purple;  */
 }
 /* =================================================================================================== */
+
+
+/* Medias */
+
+
+@media (max-width: 1035px) {
+    .imc-sobre {
+        font-size: 18px;
+    }
+
+    .entrada-dados {
+        width: 90%;
+    }
+
+    .btn-calcular {
+        width: 80%;
+    }
+}
+
+@media (max-width: 920px) {
+    #buscar {
+        width: 350px;
+    }
+
+    .arredondar {
+        width: 80px;
+        height: 80px;
+    }
+
+    p, h2, h3{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 825px) {
+    .container-funcoes p {
+        font-size: 15px;
+    }
+
+    .container-imc {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .imc-sobre {
+        padding: 20px;
+    }
+
+    .cadastro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #email {
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    #btn-email {
+        padding: 8px;
+        width: 40%;
+    }
+}
+
+@media (max-width: 750px){
+    #mode {
+        width: 25px;
+        height: 25px;
+        position: fixed;
+        top: 95%;
+        left: 89%;
+    }
+
+    .light-mode {
+        background-color: #ffe0ea;
+    }
+
+    .dark-mode {
+        background-color: #535353;
+    }
+
+    .icon-mode {
+        font-size: 15px;
+    }
+
+    p, h2, h3{
+        font-size: 12px;
+    }
+
+    .cadastro-titulo {
+        font-size: 14px;
+    }
+
+    #buscar {
+        margin-right: 30px;
+    }
+
+    .arredondar {
+        width: 60px;
+        height: 60px;
+    }
+
+    .empresas {
+        max-width: 750px;
+        position: relative;
+        height: 60px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        max-height: 50px;
+    }
+
+    .empresas::-webkit-scrollbar-thumb {
+        background-color: transparent;
+    }
+
+    .teste-empresas {
+        position: relative;
+        height:50px;
+        width: 550px;
+        max-height: 50px;
+    }
+    div img {
+        position: relative;
+        font-size: 12px;
+        color: black;
+        width: 170px;
+        height: 50px;
+        float: left;
+        opacity: .9;
+    }
+
+    .entrada-dados {
+        width: 100%;
+    }
+
+    .btn-calcular {
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px) {
+    .arredondar {
+        width: 55px;
+        height: 55px;
+    }
+
+    .empresas {
+        padding: 20px 0;
+        margin-top: 10px;
+    }
+
+    p, h2, h3{
+        font-size: 14px;
+    }
+
+    .btn-calcular {
+        padding: 10px;
+    }
+}
+
+@media(max-width: 640px) {
+    .imc {
+        grid-column: 1/4;
+        border: none;
+    }
+
+    .imc-sobre {
+        grid-row: 2/3;
+        grid-column: 1/4;
+    }
+}
+
+@media (max-width: 420px) {
+    #btn-email {
+        padding: 6px;
+        width: 40%;
+        font-size: 10px;
+    }
+
+    #mode {
+        width: 20px;
+        height: 20px;
+        left: 87%;
+    }
+
+    .icon-mode {
+        font-size: 12px;
+    }
+
+    .funcionalidades .container-funcoes + .container-funcoes {
+        margin-left: 8px;
+    }
+
+    .container-funcoes p {
+        font-size: 12px;
+    }
+}
+
+/* ================================================================== */
