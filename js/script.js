@@ -18,6 +18,10 @@ window.onload = () => {
         const cadastro = document.querySelector('.cadastro');
         const rodape = document.querySelector('.rodape');
 
+
+        const logo = document.querySelector('.logo');
+        const tituloLogo = document.querySelector('.titulo-logo');
+
         const bemVindo = document.querySelector('.bem-vindo');
         const historicoRemedios = document.querySelector('.historico-remedios');
 
@@ -70,6 +74,11 @@ window.onload = () => {
         } else if (iconMode.textContent == 'light_mode'){
             iconMode.textContent = 'mode_night';
         }
+
+
+
+        logo.classList.toggle('dark-logo');
+        tituloLogo.classList.toggle('dark-tituloLogo');
 
 
         funcionalidades.classList.toggle('dark-funcionalidades');

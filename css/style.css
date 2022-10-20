@@ -15,6 +15,10 @@ body {
 
 
 
+
+
+
+
 .container-principal {
     overflow-x: none;
     width: 90%;
@@ -57,10 +61,34 @@ body {
 }
 
 
-.logo {
-    height: 50px;
-    width: 120px;
+.container-logo {
+    display: flex;
+    justify-content: center;
+    align-items:center;
     margin-left: 30px;
+}
+
+.logo {
+    font-size: 45px;    
+}
+
+.titulo-logo {
+    font-size: 15px;
+    font-family: roboto, sans-serif;
+}
+
+.light-logo {
+    color: #363636;
+}
+.light-tituloLogo {
+    color: #363636;
+}
+
+.dark-logo {
+    color: #fdeaf0;
+}
+.dark-tituloLogo {
+    color: #fdeaf0;
 }
 
 #buscar {
@@ -98,8 +126,9 @@ body {
 }
 
 .light-mode {
+    background-color: #fdeaf0;
     border: 2px solid rgba(110, 196, 253, 0);
-    color: rgb(145, 145, 145);
+    color: rgba(49, 49, 49, 0.849);
 }
 .light-mode:hover {
     transition: .5s;
@@ -110,6 +139,7 @@ body {
 }
 
 .dark-mode {
+    background-color: #363636;
     border: 2px solid rgba(0, 88, 161, 0);
     color: #FDFAFB;
 }
@@ -123,6 +153,7 @@ body {
 
 
 .icon-mode {
+    
     font-size: 20px;
     font-weight: bold;
 }
@@ -704,11 +735,13 @@ border: 2px solid purple;
 
 @media (max-width: 750px){
     #mode {
+        border-radius: 10px 0 0 10px;
         width: 25px;
         height: 25px;
         position: fixed;
-        top: 95%;
-        left: 89%;
+        top: 15%;
+        left: 91.1%;
+        z-index: 999;
     }
 
     .light-mode {
@@ -779,6 +812,18 @@ border: 2px solid purple;
 }
 
 @media (max-width: 700px) {
+    .container-principal {
+        width: 100%;
+    }
+
+    #mode {
+        width: 30px;
+        height: 30px;
+        position: fixed;
+        left: 95.2%;
+        z-index: 999;
+    }
+
     .arredondar {
         width: 55px;
         height: 55px;
@@ -799,6 +844,10 @@ border: 2px solid purple;
 }
 
 @media(max-width: 640px) {
+    #mode {
+        left: 94.1%;
+    }
+
     .imc {
         grid-column: 1/4;
         border: none;
@@ -810,7 +859,9 @@ border: 2px solid purple;
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 420px) {  
+    
+
     #btn-email {
         padding: 6px;
         width: 40%;
@@ -818,9 +869,9 @@ border: 2px solid purple;
     }
 
     #mode {
-        width: 20px;
-        height: 20px;
-        left: 87%;
+        width: 24px;
+        height: 24px;
+        left: 93.2%;
     }
 
     .icon-mode {
