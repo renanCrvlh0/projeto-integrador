@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(114, 114, 114);
+    overflow-x: none;
+}
+
+.dark-corpo {
+    background-color: rgb(145, 145, 145);
+}
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #FDFAFB;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(110, 196, 253);
+    border-radius: 20px;
+}
+
+.dark-corpo::-webkit-scrollbar-track {
+    background: #141414;
+}
+
+.dark-corpo::-webkit-scrollbar-thumb {
+    background: purple;
+}
+
+.container-principal {
+    overflow-x: none;
+    width: 90%;
+    margin: auto;
+    box-shadow: 5px 0 12px 0 rgba(0, 0, 0, 0.068), -5px 0 12px 0 rgba(0, 0, 0, 0.068);
+}
+.light-principal {
+    background-color: #FDFAFB;
+}
+.dark-principal {
+    background-color: #141414;
+    color: #FDFAFB;
+}
+
+.conteudo {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.light-bordaAzul {
+    border: 2px solid rgba(11, 162, 221, 0);
+}
+.light-bordaAzul:hover {
+    cursor: pointer;
+    border: 2px solid rgb(110, 196, 253);
+}
+
+.dark-bordaAzul {
+    border: 2px solid rgba(128, 0, 128, 0);
+}
+.dark-bordaAzul:hover {
+    border: 2px solid purple;
+}
+
+.arredondar {
+    border-radius: 70px;
+}
+
+
+/* bordas - modo dark e light */
+.light-border {
+    border: 2px solid rgb(110, 196, 253);
+}
+
+.dark-border {
+border: 2px solid purple;
+}
+
+.light-bottom {
+    border-bottom: 2px solid rgb(110, 196, 253);
+}
+
+.dark-bottom {
+    border-bottom: 2px solid purple;
+}
+
+.light-right {
+    border-right: 2px solid rgb(110, 196, 253);
+}
+
+.dark-right {
+    border-right: 2px solid purple;
+}
+
+.light-left {
+    border-left: 2px solid rgb(110, 196, 253);
+}
+
+.dark-left {
+    border-left: 2px solid purple;
+}
+
+.light-top {
+    border-top: 2px solid rgb(110, 196, 253);
+}
+
+.dark-top {
+    border-top: 2px solid purple;
+}

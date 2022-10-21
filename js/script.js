@@ -3,6 +3,7 @@ window.onload = () => {
     const btnDarkMode = document.querySelector('#mode');
 
     btnDarkMode.addEventListener('click', () => {
+        const corpo = document.querySelector('body');
         const principal = document.querySelector('.container-principal');
         const cabecalho = document.querySelector('.cabecalho');
         const buscar = document.querySelector('#buscar');
@@ -63,6 +64,9 @@ window.onload = () => {
 
 
         
+
+
+        corpo.classList.toggle('dark-corpo')
         
         principal.classList.toggle('dark-principal');
         cabecalho.classList.toggle('dark-cabecalho');

@@ -1,0 +1,13 @@
+.empresas {
+    padding: 50px 0;
+    margin-top: 20px;
+}
+.container-empresas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-empresas div + div {
+    margin-left: 50px;
+}

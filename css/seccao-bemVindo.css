@@ -1,0 +1,14 @@
+.bem-vindo {
+    border-radius: 0 0 10px 10px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.texto-bemvindo {
+    font-size: 30px;
+}
+
+.enciclopedia {
+    font-size: 20px;
+    margin-bottom: 20px;
+}

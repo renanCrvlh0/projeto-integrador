@@ -1,0 +1,51 @@
+.container-funcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-funcoes:hover {
+    color: rgb(110, 196, 253);
+    cursor: pointer;
+}
+
+.dark-containerFuncoes:hover {
+    color: purple;
+}
+
+.funcionalidades .container-funcoes + .container-funcoes {
+    margin-left: 40px;
+}
+
+
+.funcionalidades {
+    border-radius: 0 0 10px 10px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.light-funcionalidades {
+    border-bottom: 2px solid rgb(110, 196, 253);
+    border-left: 2px solid rgb(110, 196, 253);
+    border-right: 2px solid rgb(110, 196, 253);
+}
+.dark-funcionalidades  {
+    border-bottom: 2px solid purple;
+    border-left: 2px solid purple;
+    border-right: 2px solid purple;
+}
+
+.medicamentos {
+    width: 100px;
+    height: 100px;
+}
+
+.posto-de-saude {
+    width: 100px;
+    height: 100px;
+}
