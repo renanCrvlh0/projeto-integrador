@@ -295,6 +295,7 @@ body {
     margin-bottom: 10px;
     width: 70px;
     text-align: center;
+    font-size: 14px;
     padding: 2px 15px;
     border-radius: 5px;
     
@@ -464,9 +465,10 @@ body {
 /* Alterando o botão de calcular o IMC - light e dark do botão. */
 .btn-calcular {
     margin-top: 20px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     width: 40%;
+    font-weight: 700;
 }
 
 .btn-calcular:hover {
@@ -857,6 +859,23 @@ border: 2px solid purple;
         grid-row: 2/3;
         grid-column: 1/4;
     }
+
+    .container-logo {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    #buscar {
+        margin-right: 8px;
+        
+    }
+
+    .btn-calcular {
+        padding: 15px;
+    }
+    #btn-email {
+        padding: 15px;
+    }
 }
 
 @media (max-width: 420px) {  
@@ -872,6 +891,7 @@ border: 2px solid purple;
         width: 24px;
         height: 24px;
         left: 93.2%;
+        border: none;
     }
 
     .icon-mode {
@@ -884,6 +904,22 @@ border: 2px solid purple;
 
     .container-funcoes p {
         font-size: 12px;
+    }
+
+    .container-logo {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    #buscar {
+        margin-right: 5px;
+        width: 170px;
+    }
+}
+
+@media (max-width: 290px) {
+    .container-principal {
+        width: 100%;
     }
 }
 
