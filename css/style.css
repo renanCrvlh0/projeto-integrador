@@ -702,6 +702,39 @@ border: 2px solid purple;
     p, h2, h3{
         font-size: 18px;
     }
+    .cadastro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #email {
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    #btn-email {
+        padding: 10px;
+        width: 40%;
+    }
+
+    .imc {
+        grid-column: 1/4;
+        border: none;
+    }
+
+    .imc-sobre {
+        grid-row: 2/3;
+        grid-column: 1/4;
+    }
+
+    .entrada-dados {
+        width: 50%;
+    }
+
+    .btn-calcular {
+        padding: 10px;
+        width: 40%;
+    }
 }
 
 @media (max-width: 825px) {
@@ -747,20 +780,6 @@ border: 2px solid purple;
         height: 50px;
         float: left;
         opacity: .9;
-    }
-
-    #email {
-        margin-top: 10px;
-        width: 80%;
-    }
-
-    .btn-calcular {
-        padding: 10px;
-    }
-
-    #btn-email {
-        padding: 10px;
-        width: 40%;
     }
 }
 
@@ -814,11 +833,11 @@ border: 2px solid purple;
     }
 
     .entrada-dados {
-        width: 100%;
+        width: 70%;
     }
 
     .btn-calcular {
-        width: 90%;
+        width: 60%;
     }
 }
 
@@ -857,16 +876,6 @@ border: 2px solid purple;
 @media(max-width: 640px) {
     #mode {
         left: 94.1%;
-    }
-
-    .imc {
-        grid-column: 1/4;
-        border: none;
-    }
-
-    .imc-sobre {
-        grid-row: 2/3;
-        grid-column: 1/4;
     }
 
     .container-logo {
