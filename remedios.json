@@ -1,0 +1,113 @@
+[
+    {
+       "imagem": "http://www.farmace.com.br/images/2019/05/18/dip-monoid-500mg,mL.png",
+       "nome": "dipirona",
+       "descricao": "A dipirona é um anti-inflamatório não-esteroidal com ação analgésica e antitérmica. Ela é indicada para agir contra febre, dor de cabeça, dor muscular e cólicas. Essa droga integra o grupo dos medicamentos isentos de prescrição (MIPs). Por isso, dá para comprá-la nas farmácias sem uma receita médica. Mesmo assim, é importante ter alguns cuidados, como explicaremos adiante. O ideal é consultar um profissional de saúde." ,
+       "tipo1": "Dipirona Comprimido Simples",
+       "tipo2": "Dipirona Comprimido Efervescente",
+       "tipo3": "Dipirona Gotas",
+       "tempo": "O medicamento leva de 30 a 60 minutos para começar a aplacar os sintomas que mencionamos antes. As formas líquidas acabam sendo mais rápidas.",
+       "colateral": "A dipirona às vezes baixa levemente a pressão arterial. Isso não é um problema para a maioria das pessoas, mas gente que já apresenta crises de queda de pressão pode sofrer mais ao recebê-la. Atenção redobrada e uma conversa com profissionais de saúde são bem-vindas, especialmente nesses casos. 'Problemas hematológicos e renais podem ocorrer, mas são raros. Desde que o uso seja adequado, o risco é baixo. Por isso é importante não usar de forma indiscriminada”, explica Pereira, que também é professor da Faculdade de Ciências Farmacêuticas de Ribeirão Preto (FCFRP-USP). Ou seja, a maior ameaça é a utilização corriqueira, ou em largas doses. Se febre, dores ou outros sintomas forem recorrentes, procure um médico. Até porque, nesse contexto, a dipirona ou outros medicamentos podem mascarar uma doença mais séria.'" 
+    },
+
+    {
+        "imagem": "https://www.dorflex.com.br/src/img/products/Dorflex_Comprimido_24.png",
+        "nome": "dorflex",
+        "descricao": "Dorflex é um medicamento que possui ação analgésica e relaxante muscular. É indicado para aliviar dores relacionadas à contratura muscular excessiva, como a dor de cabeça tensional (cefaleia tensional), e também as dores musculares (incluindo dor nas costas e na lombar)." ,
+        "tipo1": "Dorflex Comprimidos",
+        "tipo2": "Dorflex Uno Comprimido",
+        "tipo3": "Dorflex Gotas",
+        "tempo": "O medicamento leva em torno de 30 minutos para começar a aplacar os sintomas e os efeitos duram aproximadamente 4 horas.",
+        "colateral": "Boca seca, sede, diminuição da sudorese, retenção ou hesitação urinária (atraso na passagem da urina), visão borrada, dilatação da pupila, aumento da pressão intraocular, fraqueza, enjoos, vômitos, dor de cabeça, tonturas, prisão de ventre, sonolência, reações alérgicas, coceira, alucinações, agitação, tremor, irritação gástrica." 
+     },
+
+     {
+        "imagem": "https://guiadafarmacia.com.br/consulta-medicamentos/wp-content/uploads/2021/07/7896523206547.png",
+        "nome": "valerimed",
+        "descricao": "O Valerimed é um remédio calmante, que contém extrato seco de Valeriana Officinalis,indicado para ajudar a induzir o sono e para o tratamento de distúrbios do sono associados a ansiedade. Este remédio atua no sistema nervoso central, exercendo um leve efeito calmante e regularizando o sono." ,
+        "tipo1": "Valerimed Comprimidos",
+        "tipo2": null,
+        "tipo3": null,
+        "tempo": "A dose recomendada é de 1 comprimido, três vezes ao dia. Caso a pessoa pretenda usar o medicamento como promotor do sono, deve ingerir o comprimido cerca de 30 minutos a 2 horas antes de dormir. O comprimido não deve ser partido, aberto ou mastigado, e deve ser ingerido com o auxílio de um copo de água.",
+        "colateral": "Embora seja raro, alguns dos efeitos colaterais que podem ocorrer durante o tratamento com Valerimed são tontura, mal estar gastrointestinal, alergias de contato, dor de cabeça e midríase. Com o uso prolongado, podem ocorrer sintomas, como dor de cabeça, cansaço, insônia, dilatação da pupila e alterações cardíacas." 
+     },
+
+     {
+        "imagem": "https://www.kindpng.com/picc/m/27-272293_viagra-hd-png-download.png",
+        "nome": "viagra",
+        "descricao": "O Viagra é um medicamento usado por homens para tratar a disfunção erétil. Ele aumenta o fluxo sanguíneo em direção ao pênis durante o sexo. Assim, permite que a pessoa mantenha uma ereção dura o suficiente para as relações sexuais." ,
+        "tipo1": "Viagra Comprimidos",
+        "tipo2": null,
+        "tipo3": null,
+        "tempo": "O efeito do viagra geralmente dura em média 4 horas, podendo variar de pessoa para pessoa. Isso dependerá da dosagem, portanto, do seu metabolismo e de outros fatores externos, como idade, dieta e condições gerais de saúde. Mas isso não quer dizer que você terá uma ereção que dure 4 horas! Na verdade, isso significa que, durante essas 4 horas, o viagra estará atuando como um facilitador da sua ereção.",
+        "colateral": "Queda transitória na pressão sanguínea, congestão ou corrimento nasal, dispepsia, ondas de calor, dor de cabeça, indigestão e dores musculares ou nas costas. Outros efeitos colaterais mais raros incluem: distúrbios na visão, insônia e hemorragias nasais. Muito raramente, relataram uma súbita perda auditiva." 
+     },
+
+     {
+        "imagem": "https://uploads.consultaremedios.com.br/product_variation_images/full/dc79e33236088912c6231dc3d114f15b239236af.png?1615835700",
+        "nome": "paracetamol",
+        "descricao": "Cientificamente conhecido como um Anti-Inflamatório Não Esteroidal, o paracetamol é mais comumente definido como um analgésico, que alivia as dores, e um antitérmico, por combater a febre. O paracetamol pode ser absorvido pelo corpo e, então, ser distribuído pelos tecidos. Quando ele atinge o seu alvo, pode efetuar a ação desejada e se transformar em um produto pronto para ser eliminado do corpo." ,
+        "tipo1": "Paracetamol Comprimidos",
+        "tipo2": "Paracetamol Gotas",
+        "tipo3": null,
+        "tempo": "O efeito do viagra geralmente dura em média 4 horas, podendo variar de pessoa para pessoa. Isso dependerá da dosagem, portanto, do seu metabolismo e de outros fatores externos, como idade, dieta e condições gerais de saúde. Mas isso não quer dizer que você terá uma ereção que dure 4 horas! Na verdade, isso significa que, durante essas 4 horas, o viagra estará atuando como um facilitador da sua ereção.",
+        "colateral": "Queda transitória na pressão sanguínea, congestão ou corrimento nasal, dispepsia, ondas de calor, dor de cabeça, indigestão e dores musculares ou nas costas. Outros efeitos colaterais mais raros incluem: distúrbios na visão, insônia e hemorragias nasais. Muito raramente, relataram uma súbita perda auditiva." 
+     },
+
+
+     {
+        "imagem": "https://amanf.org.br/wp-content/uploads/2019/08/ritalina.gif",
+        "nome": "ritalina",
+        "descricao": "A Ritalina é um remédio que tem como princípio ativo o Cloridrato de Metilfenidato, um estimulante do sistema nervoso central, indicado para ajudar no tratamento do transtorno de déficit de atenção e hiperatividade em crianças e adultos, e da narcolepsia." ,
+        "tipo1": "Ritalina Comprimidos",
+        "tipo2": "Ritalina LA Comprimidos",
+        "tipo3": null,
+        "tempo": "O tempo para o início dos efeitos varia de 20 a 60 minutos., com pico de ação por volta de 2 horas. A duração da ação é de três a cinco horas. Nos comprimidos de liberação prolongada o tempo de ação pode durar por até 12 horas." ,
+        "colateral": "Os efeitos colaterais imediatos podem ser diminuição de apetite, insônia, desmaios repentinos, aceleração dos batimentos cardíacos, febre, desconforto abdominal, nervosismo, azia e náuseas. A longo prazo, os efeitos podem ser ainda mais graves, como aumento da pressão arterial, danos no fígado, pulmões e rins, perda de peso, exaustão, mente confusa, depressão, psicose, desnutrição e danos no cérebro, que podem evoluir para derrames e epilepsia."
+    },
+
+     {
+        "imagem": "https://hmcmax.com/wp-content/uploads/2021/09/rivotrilgotas-300x300.png",
+        "nome": "rivotril",
+        "descricao": "O Rivotril é um ansiolítico. Ou seja, um tranquilizante do grupo dos benzodiazepínicos (do qual também fazem parte diazepam, lorazepam, alprazolam, bromazepam, midazolam, clordiazepóxido, dentre outros). Sua função essencial é inibir certas funções do sistema nervoso central, através de um efeito sedativo." ,
+        "tipo1": "Rivotril Comprimidos",
+        "tipo2": "Rivotril Comprimidos Sublingual",
+        "tipo3": "Rivotril Gotas",
+        "tempo": "O clonazepam ou Rivotril age rapidamente. Portanto, entre 30 e 60 minutos após a ingestão, o medicamento já começa a atuar no organismo. O efeito do Rivotril perdura por até 8 horas em adultos, e 12 horas em crianças." ,
+        "colateral": "Sonolência, dor de cabeça, problemas respiratórios, cansaço, gripe, depressão, vertigem, irritabilidade, insônia, fadiga, memória prejudicada, coordenação motora falha ou anormal, perda do equilíbrio, náusea, sensação de cabeça leve, sinusite, urticária, concentração prejudicada, distúrbios do sistema imunológico, doenças endócrinos, distúrbios psiquiátricos,doenças do sistema nervoso, problemas oculares, distúrbios cardiovasculares, disfunções respiratórias, distúrbios gastrintestinais, problemas musculoesqueléticos, distúrbios renais, distúrbios do sistema reprodutivo."
+    },
+
+    {
+        "imagem": "https://s3.eu-west-1.amazonaws.com/sk-media-luftal-br-prod/media/cache/7/7/4/4/f/c/7744fc3cc0569f5258a9e23916aa484b9298d4ab.png",
+        "nome": "luftal",
+        "descricao": "Luftal é indicado para pacientes com excesso de gases no aparelho digestivo. O acúmulo de gases no estômago e no intestino chama-se flatulência, que causa desconforto abdominal, aumento do volume abdominal, dor ou cólicas no abdômen. A eliminação dos gases alivia estes sintomas." ,
+        "tipo1": "Luftal Comprimidos",
+        "tipo2": "Luftal Gotas",
+        "tipo3": "Luftal Gel",
+        "tempo": "Entre 10 e 30 minutos após a sua ingestão, LUFTAL atua no estômago e no intestino, diminuindo a tensão superficial dos líquidos digestivos, levando ao rompimento das bolhas, à dificuldade de formação destas bolhas, ou à formação de bolhas maiores que serão facilmente expelidas." ,
+        "colateral": "O Luftal geralmente é bem tolerado pois não é absorvido pelo corpo, agindo somente nos gases presentes no estômago ou intestino sendo totalmente eliminada pelas fezes. No entanto, alguns efeitos colaterais podem surgir durante o uso do Luftal como urticária ou coceira, inchaço e vermelhidão na pele."
+    },
+
+    {
+        "imagem": "https://cdn.shopify.com/s/files/1/0333/6993/products/centrum_300x.png?v=1604430042",
+        "nome": "centrum",
+        "descricao": "Centrum é uma marca de suplementos vitamínicos muito utilizada para prevenir ou tratar carências em vitaminas e/ou minerais, podendo também ser usado para fortalecer o sistema imunológico e para ajudar o corpo a produzir mais energia." ,
+        "tipo1": "Centrum Vitagomas",
+        "tipo2": "Centrum Select",
+        "tipo3": "Centrum Ômega 3",
+        "tempo": "A suplementação de vitaminas leva em torno de 30 dias para apresentar efeitos benéficos." ,
+        "colateral": "Geralmente, o Centrum é bem tolerado e não provoca efeitos colaterais. Porém, em caso de sobredose podem ocorrer náuseas, vômitos, diarreia e mal estar. Por isso, e para evitar futuros problemas é importante que Centrum apenas seja tomado sob indicação do médico ou do nutricionista."
+    },
+
+    {
+        "imagem": "https://seakalm.com.br/assets/img/products/seakalm-260.png",
+        "nome": "seakalm",
+        "descricao": "Este produto é indicado para o tratamento da ansiedade leve, como estados de irritabilidade, agitação nervosa, tratamento de insônia e desordens da ansiedade. Atua no sistema nervoso central, produzindo efeito sedativo e prolongando o período de sono." ,
+        "tipo1": "Seakalm Comprimidos",
+        "tipo2": "Seakalm Gotas",
+        "tipo3": null,
+        "tempo": "Seu efeito ocorre após 60 minutos." ,
+        "colateral": "Nas doses recomendadas não são conhecidos efeitos adversos ao produto. Raramente podem ocorrer reações adversas como náuseas, vômitos, dor de cabeça e taquicardia. Doses excessivas poderão provocar sedação prolongada e estados de sonolência."
+    }
+
+]
