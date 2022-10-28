@@ -5,15 +5,15 @@
 }
 
 .light-cadastro {
-    border-top: 2px solid rgb(110, 196, 253);
-    border-left: 2px solid rgb(110, 196, 253);
-    border-right: 2px solid rgb(110, 196, 253);
+    border-top: 2px solid #f74e4e;
+    border-left: 2px solid #f74e4e;
+    border-right: 2px solid #f74e4e;
 }
 
 .dark-cadastro {
-    border-top: 2px solid purple;
-    border-left: 2px solid purple;
-    border-right: 2px solid purple;
+    border-top: 2px solid #d41c1c;
+    border-left: 2px solid #d41c1c;
+    border-right: 2px solid #d41c1c;
 }
 
 .cadastro-titulo {
@@ -38,11 +38,11 @@
 
 .light-email {
     background-color: #FDFAFB;
-    border: 2px solid rgb(110, 196, 253);
+    border: 2px solid #f74e4e;
 }
 .dark-email {
     background-color: #141414;
-    border: 2px solid purple;
+    border: 2px solid #d41c1c;
     color: #FDFAFB;
 }
 
@@ -60,25 +60,25 @@
 
 
 .light-btnEmail {
-    border: 2px solid rgb(110, 196, 253);
+    border: 2px solid #f74e4e;
     background-color: #FDFAFB;
     color: #555555;    
 }
 
 .light-btnEmail:hover {
     cursor: pointer;
-    background-color: rgb(110, 196, 253);
+    background-color: #f74e4e;
     color: #FDFAFB; 
 }
 
 .dark-btnEmail {
     background-color: #141414;
-    border: 2px solid purple;
+    border: 2px solid #d41c1c;
     color: #FDFAFB;
 }
 
 .dark-btnEmail:hover {
     cursor: pointer;
-    background-color: purple;
+    background-color: #d41c1c;
     color: #141414;
 }

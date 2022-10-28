@@ -3,15 +3,14 @@
     height: 70px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    border-radius: 0 0 10px 10px;    
+    align-items: center;  
 }
 
 .light-cabecalho {
-    border-bottom: 2px solid rgb(110, 196, 253);
+    border-bottom: 2px solid #f74e4e;
 }
 .dark-cabecalho {
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid #d41c1c;
 }
 
 
@@ -54,11 +53,11 @@
 
 .light-buscar {
     background-color: #FDFAFB;
-    border: 2px solid rgb(110, 196, 253);
+    border: 2px solid #f74e4e;
 }
 .dark-buscar {
     background-color: #141414;
-    border: 2px solid purple;
+    border: 2px solid #d41c1c;
     color: #FDFAFB;
 }
 
@@ -85,8 +84,8 @@
     transition: .5s;
     cursor: pointer;
     background-color: #ebebeb;
-    color: rgb(110, 196, 253);
-    border: 2px solid rgb(110, 196, 253);
+    color: #f74e4e;
+    border: 2px solid #f74e4e;
 }
 
 .dark-mode {
@@ -98,8 +97,8 @@
     transition: .5s;
     cursor: pointer;
     background-color: #747474;
-    color: purple;
-    border: 2px solid purple;
+    color: #d41c1c;
+    border: 2px solid #d41c1c;
 }
 
 

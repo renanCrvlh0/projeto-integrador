@@ -8,12 +8,12 @@
 }
 
 .container-funcoes:hover {
-    color: rgb(110, 196, 253);
+    color: #f74e4e;
     cursor: pointer;
 }
 
 .dark-containerFuncoes:hover {
-    color: purple;
+    color: #d41c1c;
 }
 
 .funcionalidades .container-funcoes + .container-funcoes {
@@ -30,14 +30,14 @@
 }
 
 .light-funcionalidades {
-    border-bottom: 2px solid rgb(110, 196, 253);
-    border-left: 2px solid rgb(110, 196, 253);
-    border-right: 2px solid rgb(110, 196, 253);
+    border-bottom: 2px solid #f74e4e;
+    border-left: 2px solid #f74e4e;
+    border-right: 2px solid #f74e4e;
 }
 .dark-funcionalidades  {
-    border-bottom: 2px solid purple;
-    border-left: 2px solid purple;
-    border-right: 2px solid purple;
+    border-bottom: 2px solid #d41c1c;
+    border-left: 2px solid #d41c1c;
+    border-right: 2px solid #d41c1c;
 }
 
 .medicamentos {
