@@ -1,7 +1,6 @@
 .rodape {
     width: 100%;
     height: 70px;
-    border-radius: 10px 10px 0 0;
     align-items: center;
     text-align: center;
 }
@@ -12,12 +11,8 @@
 }
 
 .light-rodape {
-    border-top: 2px solid rgb(110, 196, 253);
-    /* border-left: 2px solid rgb(110, 196, 253);
-    border-right: 2px solid rgb(110, 196, 253);  */
+    border-top: 2px solid #f74e4e;
 }
 .dark-rodape {
-    border-top: 2px solid purple;
-    /* border-left: 2px solid purple;
-    border-right: 2px solid purple;  */
+    border-top: 2px solid #d41c1c;
 }
