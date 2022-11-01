@@ -258,6 +258,10 @@
         margin-right: 5px;
         width: 170px;
     }
+
+    .container-resultadoImc {
+        width: 250px;
+    }
 }
 
 @media (max-width: 290px) {

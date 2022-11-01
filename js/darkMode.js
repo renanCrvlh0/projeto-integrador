@@ -94,7 +94,16 @@ export function darkMode() {
     btnCalcular.classList.toggle('dark-btnCalcular');
 
 
-    resultadoImc.classList.toggle('resultadoImc-dark');
+    
+
+
+    if (resultadoImc.classList.contains('resultadoImc-light')) {
+        resultadoImc.classList.remove('resultadoImc-light');
+        resultadoImc.classList.add('resultadoImc-dark');
+    } else if (resultadoImc.classList.contains('resultadoImc-dark')) {
+        resultadoImc.classList.remove('resultadoImc-dark');
+        resultadoImc.classList.add('resultadoImc-light');
+    }
 
     cadastro.classList.toggle('dark-cadastro')
     cadastroEmail.classList.toggle('dark-email');

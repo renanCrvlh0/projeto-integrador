@@ -106,42 +106,48 @@
     border-radius: 10px;
     margin-top: 50px;
     padding: 10px;
-    display: none;
 }
 
 .resultadoImc-light {
     background-color: #f74e4e;
-    /* display: block; */
 }
 
 .resultadoImc-dark {
     background-color: #d41c1c;
-    display: block;
 }
 
 
 .resultado-imc {
+    text-align: center;
     font-size: 28px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .minmax-imc {
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .tipo-peso {
     font-size: 18px;
     font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.atencao {
+    font-weight: bold;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 
 .texto-de-atencao {
-    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
 .observacao {
+    font-weight: bold;
 
 }
