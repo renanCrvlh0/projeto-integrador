@@ -6,6 +6,7 @@
 body {
     background-color: rgb(114, 114, 114);
     overflow-x: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .dark-corpo {
@@ -46,6 +47,10 @@ body::-webkit-scrollbar-thumb {
 .dark-principal {
     background-color: #141414;
     color: #fafafa;
+}
+
+.ativarOpacidade {
+    opacity: 0.3;
 }
 
 .conteudo {
